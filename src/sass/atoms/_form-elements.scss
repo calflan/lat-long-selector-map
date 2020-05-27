@@ -1,0 +1,28 @@
+label {
+  display: block;
+  padding: 0 0 4px;
+  color: $rental-dark-grey;
+}
+
+input {
+  width: 100%;
+  min-width: 49px;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-color: $rental-yellow;
+  border: 1px solid $rental-grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+
+  &:disabled {
+    color: $rental-grey;
+    border: 1px solid $rental-grey;
+  }
+
+  &:active,
+  &:focus {
+    border: 1px solid $rental-blue;
+    outline: none;
+  }
+}

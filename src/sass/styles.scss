@@ -1,0 +1,24 @@
+@import "./components/button";
+@import "./core/breakpoints";
+@import "./core/colours";
+@import "./core/normilise";
+@import "./core/typography";
+@import "./atoms/form-elements";
+
+html,
+body {
+  margin: 0;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+    background-color: #07c;
+  }
+}

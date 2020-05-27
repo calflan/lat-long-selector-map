@@ -1,0 +1,32 @@
+button,
+.button {
+  box-sizing: border-box;
+  overflow: visible;
+  position: relative;
+  border: black solid 4px;
+  border-radius: 5px;
+  background: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-weight: 1rem;
+  color: black;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+
+  &.thin {
+    padding: 0.5rem;
+    border-radius: 0;
+    background-color: white;
+    color: #07c;
+    text-decoration: none;
+    border: 2px solid #07c;
+
+    &:hover {
+      color: white;
+      background-color: #07c;
+    }
+  }
+}
